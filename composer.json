@@ -1,0 +1,24 @@
+{
+    "name": "petrovskaya-n/otus-php-package",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "PetrovskayaN\\OtusPhpPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Petrovskaya",
+            "email": "petrovskaya.nat91@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/petrovskaya-n/otus-php-package"
+        }
+    ],
+    "require": {
+        "php": "^8.4"
+    }
+}
